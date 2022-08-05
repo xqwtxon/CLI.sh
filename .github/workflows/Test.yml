@@ -13,13 +13,5 @@ jobs:
           run: bash cli.sh --help
         - name: Get Version
           run: bash cli.sh --version
-        - name: Checkout Files
-          run: mv cli.sh cli && mv export.sh export
-        - name: Make Executable
-          run: chmod +x cli && chmod +x export
-        - name: Export Project
-          run: bash export cli
-        - name: Run CLI
-          run: cli --version
         - name: Complete Job
           run: rm -rf ./*
