@@ -1,5 +1,8 @@
 name: Project Test
 
+on:
+  push:
+
 jobs:
    test:
       name: Project Bash Test
