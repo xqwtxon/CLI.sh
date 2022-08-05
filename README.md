@@ -15,9 +15,6 @@ Here are basics to how to make your own cli.
 - You can type commands: `cli --version` for example.
 
 # Installation
-- ```diff
-  + curl -sL https://raw.githubusercontent.com/xqwtxon/CLI/main/cli.sh -o cli
-  ```
-- ```diff
-  + cli --version
+- ```
+  curl -sL https://raw.githubusercontent.com/xqwtxon/CLI/main/cli.sh -o cli && curl -sL https://raw.githubusercontent.com/xqwtxon/CLI/main/export.sh -o export && chmod +x cli && chmod +x export 
   ```
