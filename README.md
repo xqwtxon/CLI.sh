@@ -13,3 +13,11 @@ Here are basics to how to make your own cli.
 - Export your `cli` file using `bash export cli`
 - You can now type `cli` without using `bash`! Type only `cli` to your shell!
 - You can type commands: `cli --version` for example.
+
+# Installation
+- ```diff
+  + curl -sL https://raw.githubusercontent.com/xqwtxon/CLI/main/cli.sh -o cli
+  ```
+- ```diff
+  + cli --version
+  ```
